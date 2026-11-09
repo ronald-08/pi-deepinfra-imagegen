@@ -1,0 +1,39 @@
+{
+  "name": "pi-deepinfra-imagegen",
+  "version": "0.1.0",
+  "description": "DeepInfra image generation as a native pi tool: generate_image with per-model schemas, reference images, real PNG alpha, and Impeccable-compatible prompt sidecars",
+  "type": "module",
+  "license": "MIT",
+  "author": "TODO: your name <you@example.com>",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "deepinfra",
+    "image-generation",
+    "text-to-image",
+    "nano-banana",
+    "flux",
+    "design"
+  ],
+  "files": [
+    "extensions",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/deepinfra-imagegen.ts"
+    ]
+  }
+}
