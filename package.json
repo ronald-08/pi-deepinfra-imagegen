@@ -4,7 +4,7 @@
   "description": "DeepInfra image generation as a native pi tool: generate_image with per-model schemas, reference images, real PNG alpha, and Impeccable-compatible prompt sidecars",
   "type": "module",
   "license": "MIT",
-  "author": "TODO: your name <you@example.com>",
+  "author": "ronald08 <ronald-08@proton.me>",
   "keywords": [
     "pi-package",
     "pi",
@@ -27,6 +27,14 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronald-08/pi-deepinfra-imagegen.git"
+  },
+  "homepage": "https://github.com/ronald-08/pi-deepinfra-imagegen#readme",
+  "bugs": {
+    "url": "https://github.com/ronald-08/pi-deepinfra-imagegen/issues"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
