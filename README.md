@@ -22,6 +22,13 @@ pi install -l npm:pi-deepinfra-imagegen  # or project-scoped .pi/settings.json
 pi -e npm:pi-deepinfra-imagegen          # or try it for one run
 ```
 
+Without npm, install straight from the tagged repo — `pi` clones it and pins the ref:
+
+```bash
+pi install git:github.com/ronald-08/pi-deepinfra-imagegen@v0.1.0
+pi -e git:github.com/ronald-08/pi-deepinfra-imagegen@v0.1.0
+```
+
 Then restart pi or run `/reload`. The tool `generate_image` is active by default.
 Updates: `pi update --extensions`. Removal: `pi remove npm:pi-deepinfra-imagegen`.
 
